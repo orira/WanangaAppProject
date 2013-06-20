@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">iMaori</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_about">About</string>
+
+    <string name="about_paragraph_1">
+        \'iMāori\' is a collaborative application development initiative to increase cultural awareness
+        and knowledge to kaimahi at Te Wānanga o Aotearoa through the use of mobile technology.
+    </string>
+
+    <string name="about_paragraph_2">
+        If you would like to submit something (Karakia, Waiata, Haka etc) to be included in this application,
+        send an email to our Cultural Ambassador for approval, Paraone Gloyne.
+    </string>
+    <string name="button_feedback">Submit feedback here</string>
+    <string name="about_developers">Developed by Boyd Scirkovich and Adam Matara</string>
+    <string name="title_karakia">Karakia</string>
+    <string name="title_waiata_himene">Waiata Himene</string>
+    <string name="title_powhiri">Powhiri</string>
+    <string name="title_haka_powhiri">Haka Powhiri</string>
+    <string name="title_moteatea">Nga Moteatea</string>
+    <string name="title_mihi">He Mihi</string>
+    <string name="title_hononga">Nga Hononga</string>
+    <string name="title_whakatauki">Whakatauki</string>
+
+    <string-array name="dashboard_options">
+        <item>Karakia</item>
+        <item>Waiata Himene</item>
+        <item>Powhiri</item>
+        <item>Haka Powhiri</item>
+        <item>Nga Moteatea</item>
+        <item>He Mihi</item>
+        <item>Nga Hononga</item>
+        <item>Whakatauki</item>
+    </string-array>
+
+</resources>
