@@ -17,4 +17,46 @@
         <!-- All customizations that are NOT specific to a particular API-level can go here. -->
     </style>
 
+    <!-- Navigation Drawer -->
+    <style name="drawer_menu">
+        <item name="android:layout_width">240dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_gravity">start</item>
+        <item name="android:choiceMode">singleChoice</item>
+        <item name="android:divider">@android:color/darker_gray</item>
+        <item name="android:dividerHeight">1px</item>
+        <item name="android:background">@color/White</item>
+    </style>
+
+    <style name="drawer_item">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/twenty_four_sp</item>
+        <item name="android:padding">@dimen/standard</item>
+        <item name="android:textColor">@color/Black</item>
+    </style>
+
+    <style name="text_item">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/fifteen_sp</item>
+        <item name="android:textColor">@color/Black</item>
+        <item name="android:layout_marginBottom">@dimen/standard_double</item>
+    </style>
+
+    <style name="text_item_large" parent="text_item">
+        <item name="android:textSize">@dimen/twenty_four_sp</item>
+        <item name="android:layout_marginBottom">@dimen/standard</item>
+    </style>
+
+    <style name="text_item_medium" parent="text_item">
+        <item name="android:textSize">@dimen/twenty_sp</item>
+    </style>
+
+    <style name="text_item_small" parent="text_item">
+        <item name="android:textSize">@dimen/sixteen_sp</item>
+    </style>
+
+    <dimen name="sixteen_sp">16sp</dimen>
+    <dimen name="twenty_sp">20sp</dimen>
 </resources>

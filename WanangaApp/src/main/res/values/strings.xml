@@ -15,8 +15,56 @@
         If you would like to submit something (Karakia, Waiata, Haka etc) to be included in this application,
         send an email to our Cultural Ambassador for approval, Paraone Gloyne.
     </string>
+
+    <string name="paragraph_1_karakia">
+        Ka tika hoki te kōrero: ‘He iwi karakia te Māori.’ Mai iho tēnei hanga i ō tātou tūpuna, ā, i
+        te kauwae runga hoki. Nā wai rā, i kapohia anō e tātou ngā whakamoemiti a ngā hāhi maha hei
+        whakapono anō mō tātou. Heoi, kei tēnā tōna ngākau me ana karakia – anei hoki ētehi hei āwhina
+        atu. In the times of our tūpuna, karakia acknowledged a spiritual connection with Ngā Atua
+        and with those who had passed before.  During these times, karakia were used in all aspects
+        of life; there were karakia for birth, for work, for the crops, for ta moko, for healing and
+        so on.  With the arrival of Europeans, karakia began to evolve slowly towards Christian beliefs.
+    </string>
+
+    <string name="paragraph_2_karakia">
+        Today, some amongst us continue to hold fast to traditional karakia, while others have
+        adopted a more Christian approach.  Whichever path we choose, the power of karakia comes not
+        from the words themselves, but from our expression of faith in God, faith in our tūpuna
+        (and their knowledge) and faith in the spiritual powers.
+    </string>
+
+    <string name="paragraph_3_karakia">
+        Morning Karakia is held at each Te Wānanga o Aotearoa site every morning at 8.30am or 8.45am
+        (depending on your campus/site).  Each uepū or department at your site will take turns at
+        leading this activity.  A timetable for leading Morning Karakia is available within your
+        department or from your Cultural Advisor.
+    </string>
+
+    <string name="paragraph_4_karakia">
+        This section contains a selection of karakia that are used commonly throughout the motu.
+        Your choice of karakia will reflect your beliefs and how you choose to express yourself in
+        this realm. Choose options below to see and hear examples of common karakia.
+    </string>
+
+    <string name="paragraph_1_himene">
+        He waiata kīnaki karakia te hīmene, e taea ai e te katoa te waiata whakamoemiti ki te runga
+        rawa. Waiata hīmene are sung to support a karakia.  Traditionally, these waiata are not used
+        to support whaikōrero. Choose the links below to listen to some of our more well-known
+        waiata hīmene.
+    </string>
+
+
+    <string name="line_1_karakia_first">E te Atua</string>
+    <string name="line_2_karakia_first">Whakapaingia mai ēnei kai</string>
+    <string name="line_3_karakia_first">Hei oranga mō ō mātou tinana</string>
+    <string name="line_4_karakia_first">Whangaia hoki ō mātou wairua ki te taro o te ora</string>
+    <string name="line_5_karakia_first">Ko Ihu Karaiti tō mātou kaiwhakaora</string>
+    <string name="line_6_karakia_first">Āmine</string>
+
     <string name="button_feedback">Submit feedback here</string>
     <string name="about_developers">Developed by Boyd Scirkovich and Adam Matara</string>
+
+    <!-- Maori Translations for menu -->
     <string name="title_karakia">Karakia</string>
     <string name="title_waiata_himene">Waiata Himene</string>
     <string name="title_powhiri">Powhiri</string>
@@ -25,6 +73,101 @@
     <string name="title_mihi">He Mihi</string>
     <string name="title_hononga">Nga Hononga</string>
     <string name="title_whakatauki">Whakatauki</string>
+
+    <!-- Maori Translations for menu -->
+    <string name="title_prayer">Prayer</string>
+    <string name="title_hymn">Hymns</string>
+    <string name="title_welcome">Welcome Ceremony</string>
+    <string name="title_welcome_haka">Welcome Haka</string>
+    <string name="title_dirge">Dirge</string>
+    <string name="title_salutations">Salutations</string>
+    <string name="title_links">Useful Links</string>
+    <string name="title_proverbs">Proverbs</string>
+
+    <string name="title_menu">Menu</string>
+    <string name="drawer_open">open</string>
+    <string name="drawer_closed">closed</string>
+    <string name="title_prayer_first">E Te Atua</string>
+    <string name="button_play">Play</string>
+    <string name="button_start">Timata</string>
+    <string name="line_1_karakia_second">E te runga rawa</string>
+    <string name="line_2_karakia_second">E inoi atu nei matou ki a koe</string>
+    <string name="line_3_karakia_second">Kia whakapaingia mai enei kai e hora nei</string>
+    <string name="line_4_karakia_second">Hei oranga mo o matou tinana, wairua hoki</string>
+    <string name="line_5_karakia_second">Kororia ki to ingoa tapu</string>
+    <string name="line_6_karakia_second">Amine</string>
+    <string name="title_prayer_second">E te Runga Rawa</string>
+    <string name="button_stop">Kaati</string>
+    <string name="line_1_karakia_third">E te Atua tohungia mātau</string>
+    <string name="line_2_karakia_third">E te Karaiti tohungia mātau</string>
+    <string name="line_3_karakia_third">E te Atua tohungia mātau</string>
+    <string name="line_4_karakia_third">E tō mātou matua i te rangi</string>
+    <string name="line_5_karakia_third">Kia tapu tōu ingoa</string>
+    <string name="line_6_karakia_third">Kia tae mai tōu rangatiratanga</string>
+    <string name="line_7_karakia_third">Kia meatia tāu e pai ki runga ki te whenua</string>
+    <string name="line_8_karakia_third">Kia rite ano ki tō te rangi</string>
+    <string name="line_9_karakia_third">Homai ki a mātou āianei he taro mā mātou mo tēnei rā</string>
+    <string name="line_10_karakia_third">Mūrua ō mātou hara; me mātou hoki e muru nei</string>
+    <string name="line_11_karakia_third">I ō te hunga e hara ana ki a mātou</string>
+    <string name="line_12_karakia_third">Aua hoki mātou e kawea kia whakawaia</string>
+    <string name="line_13_karakia_third">Engari whakaorangia mātou i te kino</string>
+    <string name="line_14_karakia_third">Nōu hoki te rangatiratanga</string>
+    <string name="line_15_karakia_third">Te kaha me te korōria</string>
+    <string name="line_16_karakia_third">Ake, ake, ake</string>
+    <string name="amine">Āmine</string>
+    <string name="title_prayer_third">Te Inoi a te Atua</string>
+    <string name="title_prayer_fourth">Karakia Whakamutunga</string>
+    <string name="line_1_karakia_fourth">Kia tau, kia tātou katoa</string>
+    <string name="line_2_karakia_fourth">Te atawhai o tō tātou ariki a ihu karaiti</string>
+    <string name="line_3_karakia_fourth">Me te aroha o Te Atua</string>
+    <string name="line_4_karakia_fourth">Me te whiwhinga tahitanga</string>
+    <string name="line_5_karakia_fourth">Ki te Wairua Tapu</string>
+    <string name="line_6_karakia_fourth">Ake, ake, ake</string>
+    <string name="menu_translate">translate</string>
+    <string name="line_1_himene_first">He hōnore</string>
+    <string name="line_2_himene_first">He korōria</string>
+    <string name="line_3_himene_first">Maungarongo ki te whenua</string>
+    <string name="line_4_himene_first">Whakaaro pai e</string>
+    <string name="line_5_himene_first">Ki ngā tāngata katoa</string>
+    <string name="line_6_himene_first">Ake ake, ake ake</string>
+    <string name="line_7_himene_first">Āmine</string>
+    <string name="line_8_himene_first">Te Atua te piringa</string>
+    <string name="line_9_himene_first">Tōku oranga</string>
+    <string name="title_hymn_first">He Honore</string>
+    <string name="line_1_himene_second">Ka waiata ki a Maria</string>
+    <string name="line_2_himene_second">Hine i whakaae</string>
+    <string name="line_3_himene_second">Whakameatia mai te wharetangata</string>
+    <string name="line_4_himene_second">Hine pūrotu, hine ngākau</string>
+    <string name="line_5_himene_second">Hine rangimārie</string>
+    <string name="line_6_himene_second">Ko te whaea, ko te whaea</string>
+    <string name="line_7_himene_second">O te ao.</string>
+    <string name="title_hymn_second">Ka Waiata</string>
+    <string name="line_1_himene_third">Ko tēnei te wā</string>
+    <string name="line_2_himene_third">Ka waiata au</string>
+    <string name="line_3_himene_third">Ka waiata ki a Ihowa</string>
+    <string name="line_4_himene_third">Ko tēnei te wā</string>
+    <string name="line_5_himene_third">Ka inoi ahau</string>
+    <string name="line_6_himene_third">Ka inoi ki te ariki</string>
+    <string name="line_7_himene_third">Waiata aroha nui</string>
+    <string name="line_8_himene_third">Waiata aroha nui</string>
+    <string name="line_9_himene_third">Waiata aroha nui</string>
+    <string name="line_10_himene_third">Ki te atua</string>
+    <string name="title_hymn_third">Ko tēnei te wā</string>
+    <string name="line_1_himene_fourth">Te aroha te whakapono</string>
+    <string name="line_2_himene_fourth">Me te rangimārie</string>
+    <string name="line_3_himene_fourth">Tātou tātou e</string>
+    <string name="title_hymn_fourth">Te Aroha</string>
+    <string name="title_hymn_fifth">Whakaaria mai</string>
+    <string name="line_1_himene_fifth">Whakaaria mai tō ripeka ki au</string>
+    <string name="line_2_himene_fifth">Tiaho mai rā roto i te pō</string>
+    <string name="line_3_himene_fifth">Hei konā au titiro atu ai</string>
+    <string name="line_4_himene_fifth">Ora, mate hei au koe noho ai</string>
+    <string name="line_5_himene_fifth">Whakaaria mai tō ripeka ki au</string>
+    <string name="line_6_himene_fifth">Tiaho mai rā roto i te pō</string>
+    <string name="line_7_himene_fifth">Hei konā au titiro atu ai</string>
+    <string name="line_8_himene_fifth">Ora, mate hei au koe noho ai.</string>
+    <string name="line_9_himene_fifth">Ora, mate hei au koe noho ai.</string>
+
 
     <string-array name="dashboard_options">
         <item>Karakia</item>
@@ -35,6 +178,23 @@
         <item>He Mihi</item>
         <item>Nga Hononga</item>
         <item>Whakatauki</item>
+    </string-array>
+
+    <string-array name="drawer_prayer">
+        <item>Content</item>
+        <item>E te Atua</item>
+        <item>E te runga rawa</item>
+        <item>Te inoi a te atua</item>
+        <item>Karakia whakamutunga</item>
+    </string-array>
+
+    <string-array name="drawer_hymn">
+        <item>Content</item>
+        <item>He Honore</item>
+        <item>Ka Waiata</item>
+        <item>Ko tēnei te wā</item>
+        <item>Te Aroha</item>
+        <item>Whakaaria mai</item>
     </string-array>
 
 </resources>

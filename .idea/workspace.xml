@@ -2,7 +2,9 @@
 <project version="4">
   <component name="AndroidLayoutPreviewToolWindow">
     <option name="state">
-      <GlobalState />
+      <GlobalState>
+        <option name="visible" value="false" />
+      </GlobalState>
     </option>
   </component>
   <component name="AndroidLayouts">
@@ -31,6 +33,7 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -67,9 +70,53 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
-    <line_breakpoints>
-      <breakpoint url="file://$PROJECT_DIR$/WanangaApp/src/main/java/com/twoa/adapter/DashboardAdapter.java" line="53" class="com.twoa.adapter.DashboardAdapter" package="com.twoa.adapter">
+    <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true">
+      <breakpoint url="file://$PROJECT_DIR$/WanangaApp/src/main/java/com/twoa/fragment/prayer/FirstFragment.java" line="40" class="com.twoa.prayer.FirstFragment" package="com.twoa.prayer">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/WanangaApp/src/main/java/com/twoa/fragment/prayer/SecondFragment.java" line="38" class="com.twoa.prayer.SecondFragment" package="com.twoa.prayer">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/WanangaApp/src/main/java/com/twoa/MainActivity.java" line="110" class="com.twoa.MainActivity" package="com.twoa">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/WanangaApp/src/main/java/com/twoa/MainActivity.java" line="74" class="com.twoa.MainActivity" package="com.twoa">
         <option name="ENABLED" value="true" />
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
@@ -94,113 +141,152 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="MainActivity.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/WanangaApp/src/main/java/com/twoa/MainActivity.java">
+      <file leaf-file-name="HymnActivity.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/WanangaApp/src/main/java/com/twoa/component/HymnActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="31" column="43" selection-start="895" selection-end="895" vertical-scroll-proportion="0.20376712" vertical-offset="408" max-vertical-offset="2227">
+            <state line="121" column="101" selection-start="3998" selection-end="3998" vertical-scroll-proportion="0.0" vertical-offset="1624" max-vertical-offset="4386">
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#2732#4037#0" expanded="true" />
-                <element signature="e#4026#4027#0" expanded="true" />
+                <element signature="e#7919#7973#0" expanded="true" />
+                <element signature="e#8055#8106#0" expanded="true" />
+                <element signature="e#8188#8240#0" expanded="true" />
+                <element signature="e#8322#8373#0" expanded="true" />
+                <element signature="e#8455#8507#0" expanded="true" />
+                <element signature="e#8589#8640#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="WanangaApplication.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/WanangaApp/src/main/java/com/twoa/WanangaApplication.java">
+      <file leaf-file-name="FifthFragment.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/WanangaApp/src/main/java/com/twoa/fragment/hymn/FifthFragment.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="33" selection-start="110" selection-end="143" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="578">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AndroidManifest.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/WanangaApp/src/main/AndroidManifest.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="65" selection-start="965" selection-end="965" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="612">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PrayerActivity.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/WanangaApp/src/main/java/com/twoa/component/PrayerActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="40" column="35" selection-start="967" selection-end="967" vertical-scroll-proportion="0.0" vertical-offset="317" max-vertical-offset="1054">
+            <state line="16" column="27" selection-start="454" selection-end="454" vertical-scroll-proportion="4.576923" vertical-offset="510" max-vertical-offset="1632">
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#1041#1088#0" expanded="true" />
+                <element signature="e#1221#1267#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AboutActivity.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/WanangaApp/src/main/java/com/twoa/AboutActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="69" column="5" selection-start="1965" selection-end="2329" vertical-scroll-proportion="0.0" vertical-offset="538" max-vertical-offset="1122">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="activity_prayer.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/WanangaApp/src/main/res/layout/activity_prayer.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="45" selection-start="678" selection-end="678" vertical-scroll-proportion="-9.52" vertical-offset="0" max-vertical-offset="391">
-              <folding />
-            </state>
-          </provider>
+      <file leaf-file-name="fragment_hymn_fifth.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/WanangaApp/src/main/res/layout/fragment_hymn_fifth.xml">
           <provider editor-type-id="android-designer">
             <state />
           </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DashboardAdapter.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/WanangaApp/src/main/java/com/twoa/adapter/DashboardAdapter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="60" column="74" selection-start="1836" selection-end="1836" vertical-scroll-proportion="0.0" vertical-offset="664" max-vertical-offset="2006">
+            <state line="58" column="61" selection-start="2280" selection-end="2280" vertical-scroll-proportion="-1.7532468" vertical-offset="851" max-vertical-offset="1428">
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#2199#2252#0" expanded="true" />
-                <element signature="e#2507#2566#0" expanded="true" />
-                <element signature="e#2821#2874#0" expanded="true" />
-                <element signature="e#3129#3187#0" expanded="true" />
-                <element signature="e#3442#3496#0" expanded="true" />
-                <element signature="e#3751#3801#0" expanded="true" />
-                <element signature="e#4056#4109#0" expanded="true" />
+                <element signature="e#667#696#0" expanded="true" />
+                <element signature="e#856#885#0" expanded="true" />
+                <element signature="e#1045#1074#0" expanded="true" />
+                <element signature="e#1234#1263#0" expanded="true" />
+                <element signature="e#1492#1521#0" expanded="true" />
+                <element signature="e#1681#1710#0" expanded="true" />
+                <element signature="e#1870#1899#0" expanded="true" />
+                <element signature="e#2059#2088#0" expanded="true" />
+                <element signature="e#2248#2277#0" expanded="true" />
+                <element signature="e#2438#2453#0" expanded="true" />
+                <element signature="e#2662#2684#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="adapter_dashboard.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/WanangaApp/src/main/res/layout/adapter_dashboard.xml">
+      <file leaf-file-name="styles.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/WanangaApp/src/main/res/values/styles.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="47" selection-start="809" selection-end="809" vertical-scroll-proportion="-14.28" vertical-offset="0" max-vertical-offset="561">
+            <state line="46" column="17" selection-start="1905" selection-end="1905" vertical-scroll-proportion="0.0" vertical-offset="572" max-vertical-offset="1156">
               <folding />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="fragment_hymn_fourth.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/WanangaApp/src/main/res/layout/fragment_hymn_fourth.xml">
           <provider editor-type-id="android-designer">
             <state />
           </provider>
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="23" column="54" selection-start="925" selection-end="925" vertical-scroll-proportion="-5.077922" vertical-offset="0" max-vertical-offset="731">
+              <folding>
+                <element signature="e#546#576#0" expanded="true" />
+                <element signature="e#721#751#0" expanded="true" />
+                <element signature="e#1116#1138#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
         </entry>
       </file>
-      <file leaf-file-name="colors.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/WanangaApp/src/main/res/values/colors.xml">
+      <file leaf-file-name="FourthFragment.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/WanangaApp/src/main/java/com/twoa/fragment/hymn/FourthFragment.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="144" column="39" selection-start="6006" selection-end="6006" vertical-scroll-proportion="0.0" vertical-offset="1983" max-vertical-offset="2567">
+            <state line="58" column="0" selection-start="1858" selection-end="1858" vertical-scroll-proportion="-2.3846154" vertical-offset="862" max-vertical-offset="1394">
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1043#1090#0" expanded="true" />
+                <element signature="e#1223#1269#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="activity_component.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/WanangaApp/src/main/res/layout/activity_component.xml">
+          <provider editor-type-id="android-designer">
+            <state />
+          </provider>
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="2" column="20" selection-start="127" selection-end="127" vertical-scroll-proportion="-1.36" vertical-offset="0" max-vertical-offset="561">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="gradient_black.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/WanangaApp/src/main/res/drawable-hdpi/gradient_black.xml">
+      <file leaf-file-name="strings.xml" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/WanangaApp/src/main/res/values/strings.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="24" selection-start="208" selection-end="208" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="289">
+            <state line="189" column="0" selection-start="10821" selection-end="10821" vertical-scroll-proportion="4.887372" vertical-offset="349" max-vertical-offset="3502">
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ThirdFragment.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/WanangaApp/src/main/java/com/twoa/fragment/hymn/ThirdFragment.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="58" column="67" selection-start="2100" selection-end="2100" vertical-scroll-proportion="-6.6346154" vertical-offset="641" max-vertical-offset="1632">
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1041#1088#0" expanded="true" />
+                <element signature="e#1221#1267#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="fragment_hymn_third.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/WanangaApp/src/main/res/layout/fragment_hymn_third.xml">
+          <provider editor-type-id="android-designer">
+            <state />
+          </provider>
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="63" column="62" selection-start="2453" selection-end="2453" vertical-scroll-proportion="-7.6883116" vertical-offset="479" max-vertical-offset="1428">
+              <folding>
+                <element signature="e#718#747#0" expanded="true" />
+                <element signature="e#907#936#0" expanded="true" />
+                <element signature="e#1096#1125#0" expanded="true" />
+                <element signature="e#1285#1314#0" expanded="true" />
+                <element signature="e#1474#1503#0" expanded="true" />
+                <element signature="e#1663#1692#0" expanded="true" />
+                <element signature="e#1852#1881#0" expanded="true" />
+                <element signature="e#2041#2070#0" expanded="true" />
+                <element signature="e#2230#2259#0" expanded="true" />
+                <element signature="e#2420#2450#0" expanded="true" />
+                <element signature="e#2659#2681#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -246,22 +332,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/WanangaApp/src/main/res/drawable-hdpi/gradient_grey.xml" />
-        <option value="$PROJECT_DIR$/WanangaApp/src/main/res/menu/main.xml" />
-        <option value="$PROJECT_DIR$/WanangaApp/src/main/res/values/dimens.xml" />
-        <option value="$PROJECT_DIR$/WanangaApp/src/main/res/anim/fade_out_and_scale_500.xml" />
-        <option value="$PROJECT_DIR$/WanangaApp/src/main/res/anim/slide_in_bottom_500.xml" />
-        <option value="$PROJECT_DIR$/WanangaApp/src/main/res/layout/activity_about.xml" />
-        <option value="$PROJECT_DIR$/WanangaApp/src/main/res/layout/activity_main.xml" />
-        <option value="$PROJECT_DIR$/WanangaApp/src/main/res/values/strings.xml" />
-        <option value="$PROJECT_DIR$/WanangaApp/src/main/res/values/colors.xml" />
-        <option value="$PROJECT_DIR$/WanangaApp/src/main/java/com/twoa/adapter/DashboardAdapter.java" />
-        <option value="$PROJECT_DIR$/WanangaApp/src/main/res/layout/adapter_dashboard.xml" />
-        <option value="$PROJECT_DIR$/WanangaApp/src/main/res/layout/activity_prayer.xml" />
-        <option value="$PROJECT_DIR$/WanangaApp/src/main/AndroidManifest.xml" />
-        <option value="$PROJECT_DIR$/WanangaApp/src/main/java/com/twoa/AboutActivity.java" />
+        <option value="$PROJECT_DIR$/WanangaApp/src/main/java/com/twoa/adapter/transformer/ZoomOutPageTransformer.java" />
+        <option value="$PROJECT_DIR$/WanangaApp/src/main/res/layout/fragment_hymn_content.xml" />
+        <option value="$PROJECT_DIR$/WanangaApp/src/main/java/com/twoa/fragment/hymn/ContentFragment.java" />
+        <option value="$PROJECT_DIR$/WanangaApp/src/main/java/com/twoa/fragment/hymn/FirstFragment.java" />
+        <option value="$PROJECT_DIR$/WanangaApp/src/main/res/layout/fragment_hymn_first.xml" />
         <option value="$PROJECT_DIR$/WanangaApp/src/main/java/com/twoa/component/PrayerActivity.java" />
-        <option value="$PROJECT_DIR$/WanangaApp/src/main/java/com/twoa/MainActivity.java" />
+        <option value="$PROJECT_DIR$/WanangaApp/src/main/res/layout/fragment_hymn_second.xml" />
+        <option value="$PROJECT_DIR$/WanangaApp/src/main/java/com/twoa/fragment/hymn/SecondFragment.java" />
+        <option value="$PROJECT_DIR$/WanangaApp/src/main/res/layout/fragment_hymn_third.xml" />
+        <option value="$PROJECT_DIR$/WanangaApp/src/main/java/com/twoa/fragment/hymn/ThirdFragment.java" />
+        <option value="$PROJECT_DIR$/WanangaApp/src/main/java/com/twoa/fragment/hymn/FourthFragment.java" />
+        <option value="$PROJECT_DIR$/WanangaApp/src/main/res/layout/fragment_hymn_fourth.xml" />
+        <option value="$PROJECT_DIR$/WanangaApp/src/main/java/com/twoa/fragment/hymn/FifthFragment.java" />
+        <option value="$PROJECT_DIR$/WanangaApp/src/main/res/layout/fragment_hymn_fifth.xml" />
+        <option value="$PROJECT_DIR$/WanangaApp/src/main/java/com/twoa/component/HymnActivity.java" />
+        <option value="$PROJECT_DIR$/WanangaApp/src/main/res/values/strings.xml" />
       </list>
     </option>
   </component>
@@ -297,161 +383,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope">
-        <subPane subId="Production">
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-        <subPane subId="Tests" />
-        <subPane subId="All">
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="WanangaApp">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="WanangaApp">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="WanangaApp">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="WanangaApp">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="src/main">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="WanangaApp">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="WanangaApp">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="src/main">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="res">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="WanangaApp">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="WanangaApp">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="src/main">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="res">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="layout">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="WanangaApp">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="WanangaApp">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="src/main">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="java">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="com/twoa">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="WanangaApp">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="WanangaApp">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="src/main">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="java">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="com/twoa">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="component">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -681,32 +612,315 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="Scope">
+        <subPane subId="Tests" />
+        <subPane subId="Production">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+        <subPane subId="All">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="WanangaApp">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="WanangaApp">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="WanangaApp">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="WanangaApp">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="src/main">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="WanangaApp">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="WanangaApp">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="src/main">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="res">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="WanangaApp">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="WanangaApp">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="src/main">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="res">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="layout">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="WanangaApp">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="WanangaApp">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="src/main">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="java">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="com/twoa">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="WanangaApp">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="WanangaApp">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="src/main">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="java">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="com/twoa">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="fragment">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="prayer">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="WanangaApp">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="WanangaApp">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="src/main">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="java">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="com/twoa">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="fragment">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="hymn">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="WanangaApp">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="WanangaApp">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="src/main">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="java">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="com/twoa">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="component">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="WanangaApp">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="WanangaApp">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="src/main">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="assets">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="WanangaApp">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="WanangaApp">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="src/main">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="assets">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="audio">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="GoToFile.includeJavaFiles" value="false" />
+    <property name="project.structure.proportion" value="0.0" />
     <property name="OverrideImplement.combined" value="true" />
+    <property name="MemberChooser.sorted" value="false" />
+    <property name="recentsLimit" value="5" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_SERIALS" value="HT34RW917867" />
+    <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="GoToClass.includeJavaFiles" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_AVD" value="childcare-clien" />
-    <property name="recentsLimit" value="5" />
-    <property name="MemberChooser.sorted" value="false" />
     <property name="OverrideImplement.overriding.sorted" value="false" />
+    <property name="restartRequiresConfirmation" value="true" />
+    <property name="FullScreen" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_SERIALS" value="HT34RW917867" />
-    <property name="GoToClass.includeJavaFiles" value="false" />
-    <property name="MemberChooser.copyJavadoc" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.twoa.fragment.hymn" />
+      <recent name="com.twoa.component" />
+      <recent name="com.twoa.fragment.prayer" />
+      <recent name="com.twoa.adapter" />
       <recent name="com.twoa" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Projects\Re-Write Project\WanangaAppProject\WanangaApp\src\main\res\layout" />
-      <recent name="C:\Projects\Re-Write Project\WanangaAppProject\WanangaApp\src\main\res\drawable-hdpi" />
+      <recent name="C:\Projects\Re-Write Project\WanangaAppProject\WanangaApp\src\main\assets\audio" />
+      <recent name="C:\Projects\Re-Write Project\WanangaAppProject\WanangaApp\src\main\java\com\twoa\fragment\hymn" />
       <recent name="C:\Projects\Re-Write Project\WanangaAppProject\WanangaApp\src\main\res\drawable-xxhdpi" />
-      <recent name="C:\Projects\Re-Write Project\WanangaAppProject\WanangaApp\src\main\res\anim" />
-      <recent name="C:\Projects\Re-Write Project\WanangaAppProject\WanangaApp\src\main\res\values" />
+      <recent name="C:\Projects\Re-Write Project\WanangaAppProject\WanangaApp\src\main\res\drawable-hdpi" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.twoa" />
     </key>
   </component>
   <component name="RunManager" selected="Android Application.WanangaApp">
@@ -804,7 +1018,7 @@
       <option name="ACTIVITY_CLASS" value="" />
       <option name="MODE" value="default_activity" />
       <option name="DEPLOY" value="true" />
-      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="TARGET_SELECTION_MODE" value="USB_DEVICE" />
       <option name="PREFERRED_AVD" value="" />
       <option name="USE_COMMAND_LINE" value="true" />
       <option name="COMMAND_LINE" value="" />
@@ -835,6 +1049,23 @@
     </configuration>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false" SSL_PROTOCOLS="sslv3">
+    <option name="USER" value="" />
+    <option name="PASSWORD" value="" />
+    <option name="mySSHConnectionTimeout" value="30000" />
+    <option name="mySSHReadTimeout" value="30000" />
+    <option name="LAST_MERGED_REVISION" />
+    <option name="MERGE_DRY_RUN" value="false" />
+    <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
+    <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
+    <option name="IGNORE_SPACES_IN_MERGE" value="false" />
+    <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
+    <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
+    <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
+    <option name="FORCE_UPDATE" value="false" />
+    <option name="IGNORE_EXTERNALS" value="false" />
+    <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="e26a4653-ac6d-4316-8268-d0297fa55b99" name="Default" comment="" />
@@ -844,8 +1075,8 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1066" extended-state="7" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -858,19 +1089,19 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32893288" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3278328" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32673267" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2497332" sideWeight="0.6710671" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32893288" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2497332" sideWeight="0.6732673" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32893288" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32893288" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -935,136 +1166,300 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/WanangaApp/src/main/res/drawable-hdpi/button_black.xml">
+    <entry file="file://$PROJECT_DIR$/WanangaApp/src/main/java/com/twoa/fragment/hymn/ContentFragment.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="799" />
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/sdk/platforms/android-17/data/res/values/arrays.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.8732877" vertical-offset="510" max-vertical-offset="7174" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WanangaApp/src/main/res/layout/activity_main.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="45" selection-start="678" selection-end="678" vertical-scroll-proportion="-9.52" vertical-offset="0" max-vertical-offset="493">
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WanangaApp/src/main/res/drawable-hdpi/image_karakia.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WanangaApp/src/main/res/values/strings.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="53" selection-start="1275" selection-end="1275" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="782">
+        <state line="17" column="13" selection-start="407" selection-end="407" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="544">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WanangaApp/src/main/res/drawable-hdpi/gradient_grey.xml">
+    <entry file="file://$PROJECT_DIR$/WanangaApp/src/main/java/com/twoa/fragment/hymn/FirstFragment.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="584">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WanangaApp/src/main/res/drawable-hdpi/gradient_black.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="24" selection-start="208" selection-end="208" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="289">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WanangaApp/src/main/res/values/colors.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="144" column="39" selection-start="6006" selection-end="6006" vertical-scroll-proportion="0.0" vertical-offset="1983" max-vertical-offset="2567">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WanangaApp/src/main/res/layout/adapter_dashboard.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="47" selection-start="809" selection-end="809" vertical-scroll-proportion="-14.28" vertical-offset="0" max-vertical-offset="561">
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WanangaApp/src/main/java/com/twoa/adapter/DashboardAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="60" column="74" selection-start="1836" selection-end="1836" vertical-scroll-proportion="0.0" vertical-offset="664" max-vertical-offset="2006">
+        <state line="13" column="18" selection-start="389" selection-end="389" vertical-scroll-proportion="-4.25" vertical-offset="0" max-vertical-offset="1598">
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2199#2252#0" expanded="true" />
-            <element signature="e#2507#2566#0" expanded="true" />
-            <element signature="e#2821#2874#0" expanded="true" />
-            <element signature="e#3129#3187#0" expanded="true" />
-            <element signature="e#3442#3496#0" expanded="true" />
-            <element signature="e#3751#3801#0" expanded="true" />
-            <element signature="e#4056#4109#0" expanded="true" />
+            <element signature="e#1041#1088#0" expanded="false" />
+            <element signature="e#1221#1267#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WanangaApp/src/main/res/layout/activity_prayer.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="45" selection-start="678" selection-end="678" vertical-scroll-proportion="-9.52" vertical-offset="0" max-vertical-offset="391">
-          <folding />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/WanangaApp/src/main/res/layout/fragment_hymn_first.xml">
       <provider editor-type-id="android-designer">
         <state />
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WanangaApp/src/main/java/com/twoa/AboutActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="69" column="5" selection-start="1965" selection-end="2329" vertical-scroll-proportion="0.0" vertical-offset="538" max-vertical-offset="1122">
-          <folding />
+        <state line="13" column="38" selection-start="560" selection-end="560" vertical-scroll-proportion="-2.8701298" vertical-offset="0" max-vertical-offset="1309">
+          <folding>
+            <element signature="e#722#751#0" expanded="false" />
+            <element signature="e#911#940#0" expanded="false" />
+            <element signature="e#1100#1129#0" expanded="false" />
+            <element signature="e#1289#1318#0" expanded="false" />
+            <element signature="e#1478#1507#0" expanded="false" />
+            <element signature="e#1667#1696#0" expanded="false" />
+            <element signature="e#1856#1885#0" expanded="false" />
+            <element signature="e#2045#2074#0" expanded="false" />
+            <element signature="e#2234#2263#0" expanded="false" />
+            <element signature="e#2472#2494#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/WanangaApp/src/main/java/com/twoa/component/PrayerActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="35" selection-start="967" selection-end="967" vertical-scroll-proportion="0.0" vertical-offset="317" max-vertical-offset="1054">
+        <state line="119" column="100" selection-start="3921" selection-end="3921" vertical-scroll-proportion="0.0" vertical-offset="1354" max-vertical-offset="3672">
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#2507#2555#0" expanded="false" />
+            <element signature="e#7630#7681#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WanangaApp/src/main/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="65" selection-start="965" selection-end="965" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="612">
-          <folding />
-        </state>
+    <entry file="file://$PROJECT_DIR$/WanangaApp/src/main/res/layout/fragment_hymn_second.xml">
+      <provider editor-type-id="android-designer">
+        <state />
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WanangaApp/src/main/java/com/twoa/WanangaApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="33" selection-start="110" selection-end="143" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="578">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WanangaApp/src/main/java/com/twoa/MainActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="43" selection-start="895" selection-end="895" vertical-scroll-proportion="0.20376712" vertical-offset="408" max-vertical-offset="2227">
+        <state line="43" column="54" selection-start="1629" selection-end="1629" vertical-scroll-proportion="-4.818182" vertical-offset="360" max-vertical-offset="1071">
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2732#4037#0" expanded="true" />
-            <element signature="e#4026#4027#0" expanded="true" />
+            <element signature="e#546#576#0" expanded="false" />
+            <element signature="e#721#751#0" expanded="false" />
+            <element signature="e#896#926#0" expanded="false" />
+            <element signature="e#1071#1101#0" expanded="false" />
+            <element signature="e#1246#1276#0" expanded="false" />
+            <element signature="e#1421#1451#0" expanded="false" />
+            <element signature="e#1820#1842#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/WanangaApp/src/main/java/com/twoa/fragment/hymn/SecondFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="67" column="75" selection-start="2474" selection-end="2474" vertical-scroll-proportion="-17.134615" vertical-offset="248" max-vertical-offset="1530">
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#1043#1090#0" expanded="false" />
+            <element signature="e#1223#1269#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WanangaApp/src/main/res/layout/fragment_hymn_third.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="63" column="62" selection-start="2453" selection-end="2453" vertical-scroll-proportion="-7.6883116" vertical-offset="479" max-vertical-offset="1428">
+          <folding>
+            <element signature="e#718#747#0" expanded="true" />
+            <element signature="e#907#936#0" expanded="true" />
+            <element signature="e#1096#1125#0" expanded="true" />
+            <element signature="e#1285#1314#0" expanded="true" />
+            <element signature="e#1474#1503#0" expanded="true" />
+            <element signature="e#1663#1692#0" expanded="true" />
+            <element signature="e#1852#1881#0" expanded="true" />
+            <element signature="e#2041#2070#0" expanded="true" />
+            <element signature="e#2230#2259#0" expanded="true" />
+            <element signature="e#2420#2450#0" expanded="true" />
+            <element signature="e#2659#2681#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WanangaApp/src/main/java/com/twoa/fragment/hymn/ThirdFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="58" column="67" selection-start="2100" selection-end="2100" vertical-scroll-proportion="-6.6346154" vertical-offset="641" max-vertical-offset="1632">
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1041#1088#0" expanded="true" />
+            <element signature="e#1221#1267#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WanangaApp/src/main/res/layout/activity_component.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="20" selection-start="127" selection-end="127" vertical-scroll-proportion="-1.36" vertical-offset="0" max-vertical-offset="561">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WanangaApp/src/main/java/com/twoa/fragment/hymn/FourthFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="58" column="0" selection-start="1858" selection-end="1858" vertical-scroll-proportion="-2.3846154" vertical-offset="862" max-vertical-offset="1394">
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1043#1090#0" expanded="true" />
+            <element signature="e#1223#1269#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WanangaApp/src/main/res/layout/fragment_hymn_fourth.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="54" selection-start="925" selection-end="925" vertical-scroll-proportion="-5.077922" vertical-offset="0" max-vertical-offset="731">
+          <folding>
+            <element signature="e#546#576#0" expanded="true" />
+            <element signature="e#721#751#0" expanded="true" />
+            <element signature="e#1116#1138#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WanangaApp/src/main/res/values/styles.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="46" column="17" selection-start="1905" selection-end="1905" vertical-scroll-proportion="0.0" vertical-offset="572" max-vertical-offset="1156">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WanangaApp/src/main/java/com/twoa/fragment/hymn/FifthFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="27" selection-start="454" selection-end="454" vertical-scroll-proportion="4.576923" vertical-offset="510" max-vertical-offset="1632">
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1041#1088#0" expanded="true" />
+            <element signature="e#1221#1267#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WanangaApp/src/main/res/layout/fragment_hymn_fifth.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="58" column="61" selection-start="2280" selection-end="2280" vertical-scroll-proportion="-1.7532468" vertical-offset="851" max-vertical-offset="1428">
+          <folding>
+            <element signature="e#667#696#0" expanded="true" />
+            <element signature="e#856#885#0" expanded="true" />
+            <element signature="e#1045#1074#0" expanded="true" />
+            <element signature="e#1234#1263#0" expanded="true" />
+            <element signature="e#1492#1521#0" expanded="true" />
+            <element signature="e#1681#1710#0" expanded="true" />
+            <element signature="e#1870#1899#0" expanded="true" />
+            <element signature="e#2059#2088#0" expanded="true" />
+            <element signature="e#2248#2277#0" expanded="true" />
+            <element signature="e#2438#2453#0" expanded="true" />
+            <element signature="e#2662#2684#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WanangaApp/src/main/java/com/twoa/component/HymnActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="121" column="101" selection-start="3998" selection-end="3998" vertical-scroll-proportion="0.0" vertical-offset="1624" max-vertical-offset="4386">
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#7919#7973#0" expanded="true" />
+            <element signature="e#8055#8106#0" expanded="true" />
+            <element signature="e#8188#8240#0" expanded="true" />
+            <element signature="e#8322#8373#0" expanded="true" />
+            <element signature="e#8455#8507#0" expanded="true" />
+            <element signature="e#8589#8640#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WanangaApp/src/main/res/values/strings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="189" column="0" selection-start="10821" selection-end="10821" vertical-scroll-proportion="4.887372" vertical-offset="349" max-vertical-offset="3502">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Android</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.6</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>WanangaApp</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.6</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>android-support-v4</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>
 

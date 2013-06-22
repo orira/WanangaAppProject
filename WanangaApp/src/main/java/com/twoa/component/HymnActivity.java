@@ -22,11 +22,12 @@ import com.twoa.R;
 import com.twoa.adapter.ContentPagerAdapter;
 import com.twoa.adapter.DrawerAdapter;
 import com.twoa.adapter.transformer.ZoomOutPageTransformer;
-import com.twoa.fragment.prayer.ContentFragment;
-import com.twoa.fragment.prayer.FirstFragment;
-import com.twoa.fragment.prayer.FourthFragment;
-import com.twoa.fragment.prayer.SecondFragment;
-import com.twoa.fragment.prayer.ThirdFragment;
+import com.twoa.fragment.hymn.ContentFragment;
+import com.twoa.fragment.hymn.FifthFragment;
+import com.twoa.fragment.hymn.FirstFragment;
+import com.twoa.fragment.hymn.FourthFragment;
+import com.twoa.fragment.hymn.SecondFragment;
+import com.twoa.fragment.hymn.ThirdFragment;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -34,7 +35,7 @@ import java.util.List;
 /**
  * Created by Raukawa on 20/06/13.
  */
-public class PrayerActivity extends FragmentActivity {
+public class HymnActivity extends FragmentActivity {
 
     private ActionBar mActionBar;
     private DrawerLayout mDrawerLayout;
@@ -48,6 +49,7 @@ public class PrayerActivity extends FragmentActivity {
     private Fragment mSecondFragment;
     private Fragment mThirdFragment;
     private Fragment mFourthFragment;
+    private Fragment mFifthFragment;
 
 
     @Override
@@ -86,7 +88,7 @@ public class PrayerActivity extends FragmentActivity {
 
     private void setupActionBar() {
         mActionBar = getActionBar();
-        mActionBar.setTitle(getResources().getString(R.string.title_karakia));
+        mActionBar.setTitle(getResources().getString(R.string.title_waiata_himene));
         mActionBar.setDisplayHomeAsUpEnabled(true);
         mActionBar.setBackgroundDrawable(getResources().getDrawable(R.drawable.gradient_grey));
         mActionBar.setIcon(getResources().getDrawable(R.drawable.logo_main));
@@ -117,7 +119,7 @@ public class PrayerActivity extends FragmentActivity {
         mDrawerLayout.setDrawerListener(mDrawerToggle);
 
         mDrawerList = (ListView) findViewById(R.id.drawer_left_prayer);
-        mDrawerList.setAdapter( new DrawerAdapter(this, getResources().getStringArray(R.array.drawer_prayer)));
+        mDrawerList.setAdapter( new DrawerAdapter(this, getResources().getStringArray(R.array.drawer_hymn)));
         mDrawerList.setOnItemClickListener( new AdapterView.OnItemClickListener() {
 
             @Override
@@ -139,6 +141,9 @@ public class PrayerActivity extends FragmentActivity {
                     case 4:
                         mCurrentIndex = 4;
                         break;
+                    case 5:
+                        mCurrentIndex = 5;
+                        break;
                     default:
                         break;
                 }
@@ -154,6 +159,7 @@ public class PrayerActivity extends FragmentActivity {
         mSecondFragment = new SecondFragment();
         mThirdFragment = new ThirdFragment();
         mFourthFragment = new FourthFragment();
+        mFifthFragment = new FifthFragment();
     }
 
     private void setupPager() {
@@ -184,6 +190,9 @@ public class PrayerActivity extends FragmentActivity {
                     case 4:
                         mCurrentIndex = position;
                         break;
+                    case 5:
+                        mCurrentIndex = position;
+                        break;
                     default:
                         break;
                 }
@@ -202,6 +211,7 @@ public class PrayerActivity extends FragmentActivity {
         fragments.add(Fragment.instantiate(this, mSecondFragment.getClass().getName()));
         fragments.add(Fragment.instantiate(this, mThirdFragment.getClass().getName()));
         fragments.add(Fragment.instantiate(this, mFourthFragment.getClass().getName()));
+        fragments.add(Fragment.instantiate(this, mFifthFragment.getClass().getName()));
 
         return fragments;
     }
@@ -217,19 +227,22 @@ public class PrayerActivity extends FragmentActivity {
     private void setCurrentTitle(int currentIndex) {
         switch (currentIndex) {
             case 0:
-                mActionBar.setTitle(getResources().getString(R.string.title_karakia));
+                mActionBar.setTitle(getResources().getString(R.string.title_waiata_himene));
                 break;
             case 1:
                 mActionBar.setTitle(getResources().getString(R.string.title_hymn_first));
                 break;
             case 2:
-                mActionBar.setTitle(getResources().getString(R.string.title_prayer_second));
+                mActionBar.setTitle(getResources().getString(R.string.title_hymn_second));
                 break;
             case 3:
-                mActionBar.setTitle(getResources().getString(R.string.title_prayer_third));
+                mActionBar.setTitle(getResources().getString(R.string.title_hymn_third));
                 break;
             case 4:
-                mActionBar.setTitle(getResources().getString(R.string.title_prayer_fourth));
+                mActionBar.setTitle(getResources().getString(R.string.title_hymn_fourth));
+                break;
+            case 5:
+                mActionBar.setTitle(getResources().getString(R.string.title_hymn_fifth));
                 break;
         }
     }

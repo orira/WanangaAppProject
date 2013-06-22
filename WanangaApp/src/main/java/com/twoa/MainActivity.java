@@ -1,5 +1,6 @@
 package com.twoa;
 
+import android.animation.ObjectAnimator;
 import android.annotation.TargetApi;
 import android.app.ActionBar;
 import android.app.Activity;
@@ -19,6 +20,7 @@ import android.widget.TextView;
 import android.graphics.Typeface;
 
 import com.twoa.adapter.DashboardAdapter;
+import com.twoa.component.HymnActivity;
 import com.twoa.component.PrayerActivity;
 
 public class MainActivity extends Activity {
@@ -26,6 +28,7 @@ public class MainActivity extends Activity {
     private GridView mGridView;
     private Bundle mAnimationBundle;
     private Typeface mRoboto;
+    private boolean mEnglish = false;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -50,8 +53,94 @@ public class MainActivity extends Activity {
         switch (item.getItemId()) {
             case R.id.menu_about:
                 transitionToAboutView();
+                break;
+            case R.id.menu_translate:
+                translateLabels();
+                break;
         }
         return super.onOptionsItemSelected(item);
+    }
+
+    private void translateLabels() {
+        if(mEnglish) {
+            translateToMaori();
+            mEnglish = false;
+        } else {
+            translateToEnglish();
+            mEnglish = true;
+        }
+    }
+
+    private void translateToMaori() {
+        int items = mGridView.getAdapter().getCount();
+
+        for(int i=0; i<mGridView.getAdapter().getCount(); i++) {
+            View view = mGridView.getChildAt(i);
+            TextView textView = (TextView) view.findViewById(R.id.adapter_dashboard_title);
+
+            switch(i) {
+                case 0:
+                    textView.setText(getResources().getString(R.string.title_karakia));
+                    break;
+                case 1:
+                    textView.setText(getResources().getString(R.string.title_waiata_himene));
+                    break;
+                case 2:
+                    textView.setText(getResources().getString(R.string.title_powhiri));
+                    break;
+                case 3:
+                    textView.setText(getResources().getString(R.string.title_haka_powhiri));
+                    break;
+                case 4:
+                    textView.setText(getResources().getString(R.string.title_moteatea));
+                    break;
+                case 5:
+                    textView.setText(getResources().getString(R.string.title_mihi));
+                    break;
+                case 6:
+                    textView.setText(getResources().getString(R.string.title_hononga));
+                    break;
+                case 7:
+                    textView.setText(getResources().getString(R.string.title_whakatauki));
+                    break;
+            }
+        }
+    }
+
+    private void translateToEnglish() {
+        int items = mGridView.getAdapter().getCount();
+
+        for(int i=0; i<mGridView.getAdapter().getCount(); i++) {
+            View view = mGridView.getChildAt(i);
+            TextView textView = (TextView) view.findViewById(R.id.adapter_dashboard_title);
+
+            switch(i) {
+                case 0:
+                    textView.setText(getResources().getString(R.string.title_prayer));
+                    break;
+                case 1:
+                    textView.setText(getResources().getString(R.string.title_hymn));
+                    break;
+                case 2:
+                    textView.setText(getResources().getString(R.string.title_welcome));
+                    break;
+                case 3:
+                    textView.setText(getResources().getString(R.string.title_welcome_haka));
+                    break;
+                case 4:
+                    textView.setText(getResources().getString(R.string.title_dirge));
+                    break;
+                case 5:
+                    textView.setText(getResources().getString(R.string.title_salutations));
+                    break;
+                case 6:
+                    textView.setText(getResources().getString(R.string.title_links));
+                    break;
+                case 7:
+                    textView.setText(getResources().getString(R.string.title_proverbs));
+                    break;
+            }
+        }
     }
 
     @TargetApi(Build.VERSION_CODES.JELLY_BEAN)
@@ -59,6 +148,7 @@ public class MainActivity extends Activity {
         Intent invoiceIntent = new Intent(this, AboutActivity.class);
         startActivity(invoiceIntent, mAnimationBundle);
     }
+
 
     private void setupActionBar() {
         ActionBar actionBar = getActionBar();
@@ -84,31 +174,27 @@ public class MainActivity extends Activity {
             public void onItemClick(AdapterView<?> adapterView, View view, int position, long id) {
                 TextView textView = (TextView) view.findViewById(R.id.adapter_dashboard_title);
 
+                ObjectAnimator animator = ObjectAnimator.ofFloat(view, View.ALPHA, 1f, 0.60f);
+                animator.start();
+
                 switch(position) {
                     case 0:
-                        textView.setText("Prayer");
-                        transitionToView("Prayer");
+                        transitionToView(getResources().getString(R.string.title_prayer));
                         break;
                     case 1:
-                        textView.setText("Hymns");
+                        transitionToView(getResources().getString(R.string.title_hymn));
                         break;
                     case 2:
-                        textView.setText("Welcome Ceremony");
                         break;
                     case 3:
-                        textView.setText("Welcoming Haka");
                         break;
                     case 4:
-                        textView.setText("Dirge");
                         break;
                     case 5:
-                        textView.setText("Salutations");
                         break;
                     case 6:
-                        textView.setText("Useful Links");
                         break;
                     case 7:
-                        textView.setText("Proverbs");
                         break;
                 }
             }
@@ -117,8 +203,11 @@ public class MainActivity extends Activity {
 
     @TargetApi(Build.VERSION_CODES.JELLY_BEAN)
     private void transitionToView(String view) {
-        if(view.equals("Prayer")) {
+        if(view.equals(getResources().getString(R.string.title_prayer))) {
             Intent intent = new Intent(this, PrayerActivity.class);
+            startActivity(intent, mAnimationBundle);
+        } else if(view.equals(getResources().getString(R.string.title_hymn))) {
+            Intent intent = new Intent(this, HymnActivity.class);
             startActivity(intent, mAnimationBundle);
         }
     }

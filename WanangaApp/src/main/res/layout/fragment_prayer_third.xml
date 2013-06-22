@@ -1,0 +1,113 @@
+<ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".thirdFragment"
+        android:background="@drawable/gradient_off_white"
+        android:padding="@dimen/standard"
+        android:orientation="vertical">
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+        <TextView
+                android:id="@+id/line_1_prayer_fragment_third"
+                style="@style/text_item_large"
+                android:text="@string/line_1_karakia_third" />
+
+        <TextView
+                android:id="@+id/line_2_prayer_fragment_third"
+                style="@style/text_item_large"
+                android:text="@string/line_2_karakia_third" />
+
+        <TextView
+                android:id="@+id/line_3_prayer_fragment_third"
+                style="@style/text_item_large"
+                android:text="@string/line_3_karakia_third" />
+
+        <TextView
+                android:id="@+id/line_4_prayer_fragment_third"
+                style="@style/text_item_large"
+                android:text="@string/line_4_karakia_third" />
+
+        <TextView
+                android:id="@+id/line_5_prayer_fragment_third"
+                style="@style/text_item_large"
+                android:text="@string/line_5_karakia_third" />
+
+        <TextView
+                android:id="@+id/line_6_prayer_fragment_third"
+                style="@style/text_item_large"
+                android:text="@string/line_6_karakia_third" />
+
+        <TextView
+                android:id="@+id/line_7_prayer_fragment_third"
+                style="@style/text_item_large"
+                android:text="@string/line_7_karakia_third" />
+
+        <TextView
+                android:id="@+id/line_8_prayer_fragment_third"
+                style="@style/text_item_large"
+                android:text="@string/line_8_karakia_third" />
+
+        <TextView
+                android:id="@+id/line_9_prayer_fragment_third"
+                style="@style/text_item_large"
+                android:text="@string/line_9_karakia_third" />
+
+        <TextView
+                android:id="@+id/line_10_prayer_fragment_third"
+                style="@style/text_item_large"
+                android:text="@string/line_10_karakia_third" />
+
+        <TextView
+                android:id="@+id/line_11_prayer_fragment_third"
+                style="@style/text_item_large"
+                android:text="@string/line_11_karakia_third" />
+
+        <TextView
+                android:id="@+id/line_12_prayer_fragment_third"
+                style="@style/text_item_large"
+                android:text="@string/line_12_karakia_third" />
+
+        <TextView
+                android:id="@+id/line_13_prayer_fragment_third"
+                style="@style/text_item_large"
+                android:text="@string/line_13_karakia_third" />
+
+        <TextView
+                android:id="@+id/line_14_prayer_fragment_third"
+                style="@style/text_item_large"
+                android:text="@string/line_14_karakia_third" />
+
+        <TextView
+                android:id="@+id/line_15_prayer_fragment_third"
+                style="@style/text_item_large"
+                android:text="@string/line_15_karakia_third" />
+
+        <TextView
+                android:id="@+id/line_16_prayer_fragment_third"
+                style="@style/text_item_large"
+                android:text="@string/line_16_karakia_third" />
+
+        <TextView
+                android:id="@+id/line_17_prayer_fragment_third"
+                style="@style/text_item_large"
+                android:text="@string/amine" />
+
+        <Button
+                android:id="@+id/button_karakia_third"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:text="@string/button_start"
+                android:textColor="@color/WhiteSmoke"
+                android:layout_marginBottom="@dimen/standard_double"
+                android:background="@drawable/button_green"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="@dimen/standard"/>
+
+    </LinearLayout>
+</ScrollView>

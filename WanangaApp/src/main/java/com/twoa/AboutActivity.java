@@ -10,10 +10,12 @@ import android.os.Build;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
+import android.widget.Button;
 import android.widget.ListView;
 import android.widget.TextView;
 
-public class AboutActivity extends Activity {
+public class AboutActivity extends Activity implements View.OnClickListener{
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -40,6 +42,16 @@ public class AboutActivity extends Activity {
         transitionToMainActivity();
     }
 
+    @Override
+    public void onClick(View view) {
+        Intent email = new Intent(Intent.ACTION_SEND);
+        email.putExtra(Intent.EXTRA_EMAIL, new String[]{"test@gmail.com"});
+        email.putExtra(Intent.EXTRA_SUBJECT, "test subject");
+        email.putExtra(Intent.EXTRA_TEXT, "");
+        email.setType("message/rfc822");
+        startActivity(Intent.createChooser(email, "Choose an Email client :"));
+    }
+
     private void setupActionBar() {
         ActionBar actionBar = getActionBar();
         actionBar.setBackgroundDrawable(getResources().getDrawable(R.drawable.gradient_grey));
@@ -60,6 +72,9 @@ public class AboutActivity extends Activity {
 
         TextView developers = (TextView) findViewById(R.id.activity_about_developers);
         developers.setTypeface(roboto);
+
+        Button button = (Button) findViewById(R.id.activity_about_button);
+        button.setOnClickListener(this);
     }
 
     @TargetApi(Build.VERSION_CODES.JELLY_BEAN)
@@ -68,4 +83,5 @@ public class AboutActivity extends Activity {
         Bundle animationBundle = ActivityOptions.makeCustomAnimation(this, R.anim.fade_in_and_scale_600, R.anim.slide_out_bottom_300).toBundle();
         startActivity(invoiceIntent, animationBundle);
     }
+
 }

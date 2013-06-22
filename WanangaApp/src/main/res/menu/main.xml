@@ -3,4 +3,10 @@
         android:title="@string/menu_about"
         android:orderInCategory="100"
         android:showAsAction="never" />
+
+    <item android:id="@+id/menu_translate"
+        android:title="@string/menu_translate"
+        android:orderInCategory="200"
+        android:showAsAction="always"
+        android:icon="@drawable/icon_translate" />
 </menu>

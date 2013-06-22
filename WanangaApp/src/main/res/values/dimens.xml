@@ -6,4 +6,7 @@
     <dimen name="standard_half">8dp</dimen>
     <dimen name="standard">16dp</dimen>
     <dimen name="standard_double">32dp</dimen>
+
+    <dimen name="twenty_four_sp">24sp</dimen>
+    <dimen name="fifteen_sp">15sp</dimen>
 </resources>

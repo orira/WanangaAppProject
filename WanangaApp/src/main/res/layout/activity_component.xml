@@ -1,0 +1,27 @@
+<android.support.v4.widget.DrawerLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/drawer_layout_prayer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <RelativeLayout
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="@dimen/activity_horizontal_margin"
+        android:background="@drawable/backdrop_main"
+        tools:context=".PrayerActivity">
+
+        <android.support.v4.view.ViewPager
+                android:id="@+id/activity_pager_prayer"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+    </RelativeLayout>
+
+    <ListView
+        android:id="@+id/drawer_left_prayer"
+        style="@style/drawer_menu" />
+</android.support.v4.widget.DrawerLayout>
+
+

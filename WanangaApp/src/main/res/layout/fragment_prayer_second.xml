@@ -1,0 +1,52 @@
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".secondFragment"
+        android:background="@drawable/gradient_off_white"
+        android:padding="@dimen/standard"
+        android:orientation="vertical">
+
+    <TextView
+            android:id="@+id/line_1_prayer_fragment_second"
+            style="@style/text_item_large"
+            android:text="@string/line_1_karakia_second" />
+
+    <TextView
+            android:id="@+id/line_2_prayer_fragment_second"
+            style="@style/text_item_large"
+            android:text="@string/line_2_karakia_second" />
+
+    <TextView
+            android:id="@+id/line_3_prayer_fragment_second"
+            style="@style/text_item_large"
+            android:text="@string/line_3_karakia_second" />
+
+    <TextView
+            android:id="@+id/line_4_prayer_fragment_second"
+            style="@style/text_item_large"
+            android:text="@string/line_4_karakia_second" />
+
+    <TextView
+            android:id="@+id/line_5_prayer_fragment_second"
+            style="@style/text_item_large"
+            android:text="@string/line_5_karakia_second" />
+
+    <TextView
+            android:id="@+id/line_6_prayer_fragment_second"
+            style="@style/text_item_large"
+            android:text="@string/line_6_karakia_second" />
+
+    <Button
+            android:id="@+id/button_karakia_second"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:text="@string/button_start"
+            android:textColor="@color/WhiteSmoke"
+            android:layout_marginBottom="@dimen/standard_double"
+            android:background="@drawable/button_green"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/standard"/>
+
+</LinearLayout>
